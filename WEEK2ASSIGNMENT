@@ -1,0 +1,97 @@
+1. In Python, we can use the # symbol to create single-line comments. For multi-line comments, we can enclose the text within triple quotes (''' or """).   
+                                  In Python, there are two main types of comments: single-line comments and multi-line comments.
+                                  
+2.In Python, variables are used to store and manipulate data. A variable is essentially a name that refers to a value in memory. It provides a way to store data for later use and to perform operations on that data
+
+                               Here's how we declare and assign values to variables:
+                                  (i)  Basic Assignment: Use the assignment operator (=) to assign a value to a                                                variable.
+                                  (ii)Multiple Assignments:  we can assign multiple values to multiple variables in a                                          single line, separating them with commas.
+                                  (iii)Simultaneous Assignment: we can swap the values of variables using simultaneous                                          assignment.
+                                  (iv)Increment and Decrement:Python supports shorthand notation for incrementing and                                           decrementing variables.
+                                  (v)Updating Variables: we can update variables based on their current values
+                                  (vi)Naming Conventions: Choose meaningful variable names that reflect the purpose of                                         the variable. Variable names should be lowercase with underscores for readability                                        (snake_case).
+                                  
+3.We can use various functions to convert one data type to another in Python. Here are some common conversion functions:
+
+int(): Converts a value to an integer.
+float(): Converts a value to a floating-point number.
+str(): Converts a value to a string.
+list(): Converts an iterable (like a tuple or string) to a list.
+tuple(): Converts an iterable to a tuple.      
+
+Example:                 x = "5"
+                         int_x = int(x)       # Converts the string "5" to an integer 5
+
+                         y = 3.14
+                        str_y = str(y)       # Converts the float 3.14 to the string "3.14"
+                        
+4.To write and execute a Python script from the command line, follow these steps:
+
+                         Create a new text file with a .py extension (e.g., myscript.py).
+                         Open the file in a text editor and write your Python code.
+                           Save the file.
+                          Open a command prompt or terminal.
+                            Navigate to the directory where your script is located using the cd command (change                                    directory).
+                        Execute the script using the python command followed by the script's filename:
+                            sh
+                          
+                         python myscript.py
+                         
+                         
+Q5. Slicing a List:
+                  To obtain the sub-list [2, 3] from the given list [1, 2, 3, 4, 5], we can use slicing:
+
+                    
+                        my_list = [1, 2, 3, 4, 5]
+                      sub_list = my_list[1:3]
+                        print(sub_list)  # Output: [2, 3]
+                        
+                        
+Q6. Complex Numbers:
+In mathematics, a complex number is a number that can be expressed in the form a + bi, where a and b are real numbers and i is the imaginary unit (√-1).
+
+In Python, complex numbers are represented using the complex() function or by directly using the j suffix for the imaginary part. For example:
+
+python
+Copy code
+z1 = complex(3, 4)  # Creates the complex number 3 + 4j
+z2 = 2 + 5j         # Also creates the complex number 2 + 5j
+
+
+Q7. Declaring and Assigning a Variable:
+            To declare a variable named age and assign the value 25 to it:
+
+              python
+            
+               age = 25
+               
+               
+Q8. Variable Data Type:
+    The variable price with the value 9.99 belongs to the float data type, which represents floating-point numbers      (decimal numbers).
+
+
+Q9. Printing a Variable:
+                To print the value of the variable name, we can use the print() function:
+
+             python
+            
+           name = "sindhu shekhar"
+              print(name)  # Output: sindhu shekhar
+              
+              
+Q10. Extracting a Substring:
+To extract the substring "World" from the given string "Hello, World!", we can use string slicing:
+
+          python
+       
+           s = "Hello, World!"
+          substring = s[7:12]
+           print(substring)  # Output: World
+           
+           
+Q11. Declaring a Boolean Variable:
+To declare a variable named is_student and assign it a boolean value (e.g., True if i am a student, False otherwise):
+
+       python
+        
+           is_student = True  # Change to False if not a student
